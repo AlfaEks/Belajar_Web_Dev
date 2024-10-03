@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html>
     <style>
-        button {width: 100%;}
+        button {
+            width: 100%;
+            border: none;
+            border-radius: 4px;
+        }
+        .red {
+            background-color: red;
+            color: white;
+        }
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .black {
+            background-color: black;
+            color: white;
+        }
     </style>
 <body>
+    <div>
+        <div>
+            
+        </div>
+    </div>
     <table>
         <tr>
             <th colspan="4"><input type="text" name="display"></th>
         </tr>
         <tr>
             <td colspan="2">
-                <button>AC</button>
+                <button class="red">AC</button>
             </td>
             <td>
-                <button>C</button>
+                <button class="blue">C</button>
             </td>
             <td>
-                <button>*</button>
+                <button class="yellow">*</button>
             </td>
         </tr>
         <tr>
@@ -30,7 +54,7 @@
                 <button>9</button>
             </td>
             <td>
-                <button>/</button>
+                <button class="yellow">/</button>
             </td>
         </tr>
         <tr>
@@ -44,7 +68,7 @@
                 <button>6</button>
             </td>
             <td>
-                <button>+</button>
+                <button class="yellow">+</button>
             </td>
         </tr>
         <tr>
@@ -58,18 +82,18 @@
                 <button>1</button>
             </td>
             <td>
-                <button>-</button>
+                <button class="yellow">-</button>
             </td>
         </tr>
         <tr>
             <td>
-                <button>+-</button>
+                <button class="black">+-</button>
             </td>
             <td>
                 <button>0</button>
             </td>
             <td>
-                <button>.</button>
+                <button class="black">.</button>
             </td>
             <td>
                 <button>=</button>
